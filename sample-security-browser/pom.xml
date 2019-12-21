@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>sample-security-browser</artifactId>
+	<parent>
+		<groupId>com.springboot.security</groupId>
+		<artifactId>sample-security</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../sample-security</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.springboot.security</groupId>
+			<artifactId>sample-security-core</artifactId>
+			<version>${sample.security.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session</artifactId>
+		</dependency>
+	</dependencies>
+</project>
