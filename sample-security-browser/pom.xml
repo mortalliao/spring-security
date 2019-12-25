@@ -5,8 +5,7 @@
 	<parent>
 		<groupId>com.springboot.security</groupId>
 		<artifactId>sample-security</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../sample-security</relativePath>
+		<version>${sample.security.version}</version>
 	</parent>
 
 	<dependencies>
