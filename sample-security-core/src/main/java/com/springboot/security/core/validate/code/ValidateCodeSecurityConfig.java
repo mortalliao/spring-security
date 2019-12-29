@@ -1,7 +1,5 @@
 package com.springboot.security.core.validate.code;
 
-import javax.servlet.Filter;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -13,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class ValidateCodeSecurityConfig extends SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity> {
 
 	@Autowired
-	private Filter validateCodeFilter;
+	private ValidateCodeFilter validateCodeFilter;
 
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
